@@ -1,0 +1,278 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    /* width: 100%; */
+    /* overflow-x: hidden; */
+}
+
+/* Banner Starts */
+
+.banner
+{
+    height: 600px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.87)), 
+    url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content
+{
+    text-align: center;
+}
+
+.banner .heading-1
+{
+    font-size: 85px;
+    font-family: Segoe Script;
+}
+
+.banner .heading-2
+{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
+}
+
+.banner p
+{
+    font-size: 35px;
+    font-weight: 200;
+ 
+}
+
+.btns
+{
+    margin-top: 40px;
+}
+.banner .btn1,.banner .btn2
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    transition:background-color .5s,border .5s ;
+    margin: 10px;
+    
+}
+
+.banner-btns
+{
+    margin-top: 40px;
+}
+
+.banner .btn1
+{
+    background-color: rgb(3, 220, 228);
+    border:2px solid rgb(3, 220, 228);
+}
+
+.banner .btn1:hover
+{
+    background-color: transparent;
+    border:2px solid white;
+}
+
+.banner .btn2
+{
+    border: 2px solid white;
+}
+
+.banner .btn2:hover
+{
+    background-color: rgb(3, 220, 228);
+    border: 2px solid rgb(3, 220, 228);
+}
+
+/* Banner Ends */
+
+/* Navbar starts */
+
+nav
+{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 7px 0px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 100;
+    transition:color .5s ;
+}
+
+nav ul a:hover
+{
+    color: rgb(3, 220, 228);
+}
+
+nav ul li
+{
+    display: inline;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 214px;
+}
+
+.brand-logo
+{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Segoe Script;
+    letter-spacing: 1px;
+    margin-left: 143px;
+}
+
+
+/* Navbar Ends */
+
+/* aboutus starts */
+    .aboutus
+    {
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 80px;
+    }
+
+    .aboutus .aboutus-h1,.aboutus .aboutus-para,.aboutus hr
+    {
+        text-align: center;
+    }
+    .aboutus .aboutus-h1
+    {
+        font-size: 40px;
+    }
+    .aboutus hr
+    {
+        width: 60px;
+        height: 4px;
+        background-color: cyan;
+        border: none;
+        margin:20px auto ;
+    }
+
+    .aboutus-child
+    {
+        /* border:5px solid purple; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .aboutus-img
+    {
+        /* border:2px solid red; */
+        width: 50%;
+        margin: 20px;
+    }
+    .aboutus-img img
+    {
+        height: auto;
+        width: 100%;
+    }
+    .aboutus-content
+    {
+        /* border:3px solid orange; */
+        width: 50%;
+        margin: 20px;
+    }
+    .aboutus-content h1 
+    {
+        margin-bottom: 20px;
+    }
+    .aboutus-content p
+    {
+        line-height: 22px;
+    }
+    .aboutus p
+    {
+        color: gray;
+    }
+/* aboutus Ends */
+
+/* services starts */
+    .services
+    {
+        background-image:linear-gradient(rgba(255, 255, 255, 0.828),rgba(255, 255, 255, 0.849)) ,
+        url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/services-bg.jpg");
+        background-repeat: no-repeat;
+        background-clip: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .services .services-h1,.services .services-para,.services hr
+    {
+        text-align: center;
+    }
+
+    .services .aboutus-h1
+    {
+        font-size: 40px;
+    }
+    .services hr
+    {
+        width: 60px;
+        height: 4px;
+        background-color: cyan;
+        border: none;
+        margin:20px auto ;
+    }
+    .services-child
+    {
+        border: 5px solid purple;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .services-info
+    {
+        border:5px solid red;
+        width:400px;
+        padding: 20px;
+        height: 250px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .services-icon
+    {
+        border:2px solid yellow;
+        margin: 5px;
+        flex-basis: 150px;
+    }
+    .services-content
+    {
+        border: 2px solid cyan;
+        margin: 5px;
+    }
+
+
+/* services Ends */
